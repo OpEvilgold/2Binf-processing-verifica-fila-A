@@ -8,7 +8,6 @@ void setup() {
   colibri = new Trasfigurabile();
   hermione.formaPersonaggio = loadShape("witch.obj");
   piuma.formaTrasf = loadShape("quill.obj");
-  // piuma.formaTrasf.setFill(color(0));
   colibri.formaTrasf = loadShape("colibri.obj");
   hermione.formaPersonaggio.rotateX(radians(180));
   hermione.formaPersonaggio.setFill(#712525);
